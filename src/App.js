@@ -1,13 +1,12 @@
 import './App.css';
-import Navbar from './components/Navbar/Navbar';
-import Main from "./components/Main";
+import { Route, Routes } from 'react-router-dom';
+import Layout from './components/Layout/Layout';
 
 function App() {
   return (
-    <div className='container'>
-          <Navbar />
-          <Main />
-    </div>
+    <Routes>
+      <Route path='/' element={<Layout />} />
+    </Routes>
   );
 }
 
