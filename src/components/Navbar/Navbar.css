@@ -32,35 +32,25 @@
 
 nav {
     display: flex;
-    text-align: right;
-    position: relative;
-    margin-right: auto;
+    
+    margin-right: 2%;
+    
 
 }
 
-.about-link {
+.int-link {
     text-decoration: none;
     color: #E0E0E0;
     &:hover {
         color: #FFFFFF;
         text-decoration: underline;
     }
-    margin-right: 20%;
-}
-
-.contact-link {
-    text-decoration: none;
-    color: #E0E0E0;
-    &:hover {
-        color: #FFFFFF;
-        text-decoration: underline;
-    }
-    margin-right: 0;
+    margin-right: 15%;
 }
 
 ul {
     list-style: none;
-    margin-right: 1%;
+    margin-right: 2%;
     
 }
 
