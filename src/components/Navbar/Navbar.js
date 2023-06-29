@@ -1,7 +1,10 @@
 import React from "react";
 import "./Navbar.css";
 import logo from "../../images/CherryTreeGlyph.png";
-import { Link } from "react-router-dom";
+
+import { Link, NavLink } from "react-router-dom";
+import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export default function Navbar() {
     return (
@@ -13,9 +16,27 @@ export default function Navbar() {
             </Link>
                 
             <nav>
-                <h2>Email</h2>
+                <NavLink exact="true" activeclassname="active" className="about-link" to="/">
+                    <h1 className="nav-about">About</h1>
+                </NavLink>
+                <NavLink exact="true" activeclassname="active" className="contact-link" to="/">
+                    <h1 className="nav-contact">Contact</h1>
+                </NavLink>
             </nav>
-            
+
+            <ul>
+                <li>
+                    <a className="nav-github" target="_blank" rel="noreferrer" href="https://github.com/Leonic16246">
+                        <FontAwesomeIcon icon={faGithub} color="#F0F0F0" />
+                    </a>
+                </li>
+                <li>
+                    <a className="nav-github" target="_blank" rel="noreferrer" href="https://github.com">
+                        <FontAwesomeIcon icon={faLinkedin} color="#F0F0F0" />
+                    </a>
+                </li>
+            </ul>
+
         </div>
 
         
