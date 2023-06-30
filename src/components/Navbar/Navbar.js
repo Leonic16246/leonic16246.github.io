@@ -17,10 +17,10 @@ export default function Navbar() {
                 
             <nav>
                 <NavLink exact="true" activeclassname="active" className="int-link" to="/">
-                    <h2 className="nav-about">About</h2>
+                    <h1 className="nav-about">About</h1>
                 </NavLink>
                 <NavLink exact="true" activeclassname="active" className="int-link" to="/">
-                    <h2 className="nav-contact">Contact</h2>
+                    <h1 className="nav-contact">Contact</h1>
                 </NavLink>
             </nav>
 
@@ -31,7 +31,7 @@ export default function Navbar() {
                     </a>
                 </li>
                 <li>
-                    <a className="nav-linkedin" target="_blank" rel="noreferrer" href="https://github.com">
+                    <a className="nav-linkedin" target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/leonic-lee">
                         <FontAwesomeIcon icon={faLinkedin} color="#F0F0F0" />
                     </a>
                 </li>
