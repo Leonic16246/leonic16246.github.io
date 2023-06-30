@@ -25,7 +25,6 @@
     flex: 50%;
     text-decoration: none;
     color: #E0E0E0;
-
     font-size: 2rem;
     
 }
@@ -42,8 +41,8 @@ nav {
     text-decoration: none;
     color: #E0E0E0;
     &:hover {
-        color: #FFFFFF;
-        text-decoration: underline;
+        color: #666666;
+        
     }
     margin-right: 15%;
 }
@@ -59,7 +58,7 @@ ul > li {
     display: block;
     float: left;
     &:hover svg {
-        color: #2323FF;
+        color: #666666;
     }
 }
 

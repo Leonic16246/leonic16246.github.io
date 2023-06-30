@@ -1,5 +1,10 @@
 .home-page {
-    background-color: #282c34;
-    color: white;
-    height: 100%;
+    position: absolute;
+    left: 10%;
+    top: 20%;
+    font-size: 2rem;
   }
+
+h2 {
+  opacity: 0.5;
+}
