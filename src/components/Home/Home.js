@@ -8,7 +8,7 @@ export default function Home() {
                 <h2>Hello, </h2>
                 <h3><br />I'm Leon.</h3>
                 <h4>A 3rd year software engineering student.</h4>
-                <h5><br />Welcome.</h5>
+                <h5><br />Welcome to my site</h5>
             </div>
         </div>
     )

@@ -16,10 +16,10 @@ export default function Navbar() {
             </Link>
                 
             <nav>
-                <NavLink exact="true" activeclassname="active" className="int-link" to="/">
+                <NavLink exact="true" activeclassname="active" className="int-link" to="/about">
                     <h1 className="nav-about">About</h1>
                 </NavLink>
-                <NavLink exact="true" activeclassname="active" className="int-link" to="/">
+                <NavLink exact="true" activeclassname="active" className="int-link" to="/contact">
                     <h1 className="nav-contact">Contact</h1>
                 </NavLink>
             </nav>
