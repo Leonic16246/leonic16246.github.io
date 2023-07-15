@@ -1,6 +1,6 @@
 import "./Layout.css";
 import Navbar from "../Navbar/Navbar";
-import Home from "../Home/Home";
+
 import { Outlet } from "react-router-dom";
 
 export default function Layout() {
@@ -19,6 +19,4 @@ export default function Layout() {
         </div>
     )
 
-       
-        
 }

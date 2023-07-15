@@ -3,7 +3,7 @@ import "./Home.css"
 
 export default function Home() {
     return (
-        <div className="home-page">
+        <div className="container home-page">
             <div className="text">
                 <h2>Hello, </h2>
                 <h3><br />I'm Leon.</h3>
