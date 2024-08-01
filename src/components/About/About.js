@@ -1,5 +1,5 @@
 import React from "react";
-import "./About.css"
+import "./About.scss"
 
 export default function About() {
     return (
@@ -8,7 +8,7 @@ export default function About() {
                 <h1>
                     About me
                 </h1>
-                <p>I am a third year software engineering student</p>
+                <p>I am a software engineering student</p>
                 <p></p>
                 <p></p>
             </div>

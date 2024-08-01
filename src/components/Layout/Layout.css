@@ -17,17 +17,3 @@
     animation: fadeIn 1s forwards; 
     animation-delay: 1s; 
 }
-
-.about-page {
-    .text-zone {
-        position: absolute;
-        left: 10%;
-        top: 20%;
-
-    }
-
-    h1 {
-        font-size: 10rem;
-        
-    }
-}
