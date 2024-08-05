@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Animation from "../Animation/Animation";
+import Logo from './Logo/Logo';
 import "./Home.scss";
 
 export default function Home() {
@@ -30,6 +31,7 @@ export default function Home() {
                 </h4>
                 <h5><br /></h5>
             </div>
+            <Logo />
         </div>
     );
 }
