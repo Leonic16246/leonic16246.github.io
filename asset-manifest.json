@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.13780147.css",
+    "main.js": "/portfolio/static/js/main.e939bb39.js",
+    "static/js/787.cf482a7c.chunk.js": "/portfolio/static/js/787.cf482a7c.chunk.js",
+    "static/media/CherryTreeGlyph.png": "/portfolio/static/media/CherryTreeGlyph.d9a963857f89388291dd.png",
+    "index.html": "/portfolio/index.html",
+    "main.13780147.css.map": "/portfolio/static/css/main.13780147.css.map",
+    "main.e939bb39.js.map": "/portfolio/static/js/main.e939bb39.js.map",
+    "787.cf482a7c.chunk.js.map": "/portfolio/static/js/787.cf482a7c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.13780147.css",
+    "static/js/main.e939bb39.js"
+  ]
+}
