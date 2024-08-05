@@ -1,16 +1,17 @@
-import "./Animation.scss"
+import "./Animation.scss";
 
- const Animation = ({ letterClass, strArray, idx }) => {
+const Animation = ({ letterClass, strArray, idx }) => {
     return (
         <span>
             {
-                strArray.map((char, i) =>(
+                strArray.map((char, i) => (
                     <span key={char + i} className={`${letterClass} _${i + idx}`}>
                         {char}
                     </span>
                 ))
             }
         </span>
-    )
+    );
 }
-export default Animation
+
+export default Animation;
