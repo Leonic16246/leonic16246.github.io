@@ -15,8 +15,9 @@ export default function Home() {
     }, []);
 
     return (
+        <>
         <div className="container home-page">
-            <div className="text">
+            <div className="text-zone">
                 <h2>
                     <span className={letterClass}>H</span>
                     <span className={`${letterClass} _12`}>i,</span>
@@ -31,7 +32,9 @@ export default function Home() {
                 </h4>
                 <h5><br /></h5>
             </div>
-            <Logo />
+            
         </div>
+        <Logo />
+        </>
     );
 }

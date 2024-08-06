@@ -1,15 +1,16 @@
 .page {
     height: 100%;
     width: 100%;
-    
+    position: relative;
 }
 
 .container {
-
+    width: 100%;
     will-change: contents;
-    
-    
+    height: 5%;
+    min-height: 540px;
     position: absolute;
+    opacity: 0;
     top: 5%;
     margin: 0 auto;
     z-index: 1;
