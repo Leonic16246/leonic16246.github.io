@@ -46,24 +46,20 @@ nav {
     margin-right: 15%;
 }
 
-ul {
+.icons {
     list-style: none;
     margin-right: 2%;
-    
-}
-
-ul > li {
-    position: relative;
-    display: block;
-    float: left;
-    &:hover svg {
-        color: #666666;
+    li {
+        position: relative;
+        display: block;
+        float: left;
+        &:hover svg {
+            color: #666666;
+        }
+        a {
+            position: relative;
+            display: block;
+            padding: 10px 15px;
+        }
     }
-}
-
-ul>li>a {
-    position: relative;
-    display: block;
-    padding: 10px 15px;
-    
 }

@@ -20,11 +20,13 @@ export default function Home() {
             <div className="text-zone">
                 <h2>
                     <span className={letterClass}>H</span>
-                    <span className={`${letterClass} _12`}>i,</span>
+                    <span className={`${letterClass} _11`}>i</span>
+                    <span className={`${letterClass} _12`}>,</span>
                 </h2>
                 <h3><br />
                     <span className={`${letterClass} _13`}>I</span>
-                    <span className={`${letterClass} _14`}>'m</span>
+                    <span className={`${letterClass} _14`}>'</span>
+                    <span className={`${letterClass} _15`}>m</span>
                     <Animation letterClass={letterClass} strArray={nameArray} idx={15} />
                 </h3>
                 <h4>

@@ -24,7 +24,7 @@ export default function Navbar() {
                 </NavLink>
             </nav>
 
-            <ul>
+            <ul className="icons">
                 <li>
                     <a className="nav-github" target="_blank" rel="noreferrer" href="https://github.com/Leonic16246">
                         <FontAwesomeIcon icon={faGithub} color="#F0F0F0" />
