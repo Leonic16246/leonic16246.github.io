@@ -8,13 +8,7 @@ export default function Layout() {
         <div className="app">
             <Navbar />
             <div className="page">
-                <span className="tags-top-tags"></span>
                 <Outlet />
-                <span className="tags-bottom-tags">
-                    
-                    <br />
-                    <span className="bottom-tag-html"></span>
-                </span>
             </div>
         </div>
     )
