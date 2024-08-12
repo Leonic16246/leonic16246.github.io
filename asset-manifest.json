@@ -1,16 +1,19 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.56336f95.css",
-    "main.js": "/portfolio/static/js/main.7962fb3e.js",
-    "static/js/488.e2c21236.chunk.js": "/portfolio/static/js/488.e2c21236.chunk.js",
+    "main.css": "/portfolio/static/css/main.d72934b4.css",
+    "main.js": "/portfolio/static/js/main.5e4acf44.js",
+    "static/js/488.cd45be67.chunk.js": "/portfolio/static/js/488.cd45be67.chunk.js",
     "static/media/CherryTreeGlyph.png": "/portfolio/static/media/CherryTreeGlyph.d9a963857f89388291dd.png",
+    "static/media/menu-icon.svg": "/portfolio/static/media/menu-icon.a425255c445e2676619c.svg",
+    "static/media/logo.svg": "/portfolio/static/media/logo.6ce24c58023cc2f8fd88.svg",
     "index.html": "/portfolio/index.html",
-    "main.56336f95.css.map": "/portfolio/static/css/main.56336f95.css.map",
-    "main.7962fb3e.js.map": "/portfolio/static/js/main.7962fb3e.js.map",
-    "488.e2c21236.chunk.js.map": "/portfolio/static/js/488.e2c21236.chunk.js.map"
+    "static/media/linkedin.svg": "/portfolio/static/media/linkedin.93683c2cc3d5ca884dcf.svg",
+    "main.d72934b4.css.map": "/portfolio/static/css/main.d72934b4.css.map",
+    "main.5e4acf44.js.map": "/portfolio/static/js/main.5e4acf44.js.map",
+    "488.cd45be67.chunk.js.map": "/portfolio/static/js/488.cd45be67.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.56336f95.css",
-    "static/js/main.7962fb3e.js"
+    "static/css/main.d72934b4.css",
+    "static/js/main.5e4acf44.js"
   ]
 }
