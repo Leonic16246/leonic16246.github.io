@@ -34,7 +34,7 @@
         h1 {
             font-size: 60px;
             font-family: 'Coolvetica';
-            // color: ;
+
             font-weight: 400;
             margin-top: 0;
             position: relative;
@@ -42,7 +42,7 @@
 
             p {
                 font-style: 16px;
-                // color: ;
+
                 font-family: sans-serif;
                 font-weight: 200;
                 min-width: fit-content;

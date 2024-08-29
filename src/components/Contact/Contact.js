@@ -1,4 +1,4 @@
-import './Contact.scss';
+import './Contact.css';
 import Animation from '../Animation/Animation';
 import { useEffect, useState, useRef } from "react";
 import emailjs from '@emailjs/browser';

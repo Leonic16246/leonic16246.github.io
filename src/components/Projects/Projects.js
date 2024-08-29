@@ -1,4 +1,4 @@
-import './Projects.scss';
+import './Projects.css';
 import { useEffect, useState } from "react";
 import Animation from '../Animation/Animation';
 import projectsList from "../../data/projects.json";

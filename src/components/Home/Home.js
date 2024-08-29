@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Animation from "../Animation/Animation";
 import Logo from './Logo/Logo';
-import "./Home.scss";
+import "./Home.css";
 
 export default function Home() {
     const [letterClass, setLetterClass] = useState('text-animate');

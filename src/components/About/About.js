@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import "./About.scss"
+import "./About.css"
 import Animation from "../Animation/Animation";
 
 export default function About() {
