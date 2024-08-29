@@ -14,12 +14,10 @@ const Projects = () => {
     }, []);
 
     const renderProjects = () => {
-        // Access the array under the 'project' key
         return (
-            <div>
+            <div className="projects-container">
                 {projectsList.project.map((project, idx) => (
-                    <div key={idx}>
-
+                    <div key={idx} className="project-card">
                         <img src={require(`../../${project.imgsrc}`)} alt={project.title} />
                         <h3>{project.title}</h3>
                         <p>{project.desc}</p>
@@ -29,7 +27,7 @@ const Projects = () => {
                             ))}
                         </ul>
                         <div>
-                            <a href={project.source}>Source Code</a>
+                            <a href={project.source} target="_blank" rel="noopener noreferrer">Source Code</a>
                         </div>
                     </div>
                 ))}
@@ -47,7 +45,6 @@ const Projects = () => {
                         idx={15} 
                     />
                 </h1>
-                <h2>TO DO</h2>
                 <div>{renderProjects()}</div>
             </div>
         </div>

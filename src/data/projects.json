@@ -1,32 +1,33 @@
 {
     "project" : [
-        {
-            "title": "Pet Game",
-            "imgsrc": "images/CherryTreeGlyph.png",
-            "desc": "desc",
-            "skills": ["a", "b"],
-            "source": "https://github.com/Leonic16246/Pet-Game-GUI"
-        },
+
         {
             "title": "The Battle of Hamburg-err",
             "imgsrc": "images/github-mark-white.png",
-            "desc": "desc",
-            "skills": ["a", "b"],
+            "desc": "Unity Tower Defense Game",
+            "skills": ["Unity C#", "Agile Scrum"],
             "source": "https://github.com/Leonic16246/Battle-of-Hamburg-Err"
-        },
-        {
-            "title": "This website!",
-            "imgsrc": "images/CherryTreeGlyph.png",
-            "desc": "desc",
-            "skills": ["a", "b"],
-            "source": "https://github.com/Leonic16246/portfolio"
         },
         {
             "title": "Speed Website",
             "imgsrc": "images/CherryTreeGlyph.png",
-            "desc": "desc",
-            "skills": ["a", "b"],
+            "desc": "Next.js Website With MongoDB",
+            "skills": ["Next.js", "MongoDB"],
             "source": "https://github.com/leo-r-jia/SPEED"
+        },
+        {
+            "title": "This website!",
+            "imgsrc": "images/CherryTreeGlyph.png",
+            "desc": "Personal React Website",
+            "skills": ["React", "Javascript"],
+            "source": "https://github.com/Leonic16246/portfolio"
+        },
+        {
+            "title": "Pet Game",
+            "imgsrc": "images/CherryTreeGlyph.png",
+            "desc": "Java Game with Swing GUI And JDBC Integration",
+            "skills": ["Java", "Swing", "JDBC"],
+            "source": "https://github.com/Leonic16246/Pet-Game-GUI"
         }
     ]
 }
