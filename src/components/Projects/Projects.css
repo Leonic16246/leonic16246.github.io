@@ -3,7 +3,6 @@
     flex-direction: column;
     align-items: center;
 
-    width: 100%;
   
     .projects-container {
       display: grid;
@@ -17,7 +16,6 @@
     .project-card {
       background-color: #000000;
       border-radius: 8px;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
       padding: 20px;
       text-align: center;
       transition: transform 0.3s ease-in-out;
